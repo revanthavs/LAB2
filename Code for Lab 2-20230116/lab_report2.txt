@@ -1,11 +1,12 @@
 Question 1: How do you specify a TCP socket in Python?
-
+We can specify a TCP socket in python by using socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 Question 2: What is the difference between a client socket and a server socket in Python?
-
+In server socket, we need to bind both host and port address togeather and client connect to address and port and listens to port.
 Question 3: How do we instruct the OS to let us reuse the same bind port?
-
+We can instruct the OS to let us reuse the same bind port by specifing socket.SO_REUSEADDR parameter in setsockopt.
 Question 4: What information do we get about incoming connections?
-
+We get the host and port number.
 Question 5: What is returned by recv() from the server after it is done sending the HTTP request?
-
+We will recieve empty string after it is dong sending the HTTP request
 Question 6: Provide a link to your code on GitHub.
+https://github.com/revanthavs/LAB2/tree/main/Code%20for%20Lab%202-20230116
